@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(255, 255, 255) !important;
+  padding: 10px;
+  margin: 0px;
+  padding: 0px !important;
+  /* background: #ffffff url("/fundo2.jpg") repeat; */
+  /* font-family: "Sarala", sans-serif !important;
+  */
+
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  
+  /* background: url("/bg.jpg"); */
+
+  background: url(./bg.jpg) no-repeat top center fixed;
+  background-image: url(./bg.jpg);
+  background-position-x: center;
+  background-position-y: top;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: cover;
+
+}
+
+.accordion-body {
+  background: transparent;
+}
+
+.navbar {
+  margin-top: 0px !important;
+}
+
+.container-fluid {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  padding: 0;
+  padding-left: 0 !important;
+}
+
+.navbar-bem-vindo {
+  width: 100px !important;
+}
+
+#navbar-dados-aluno {
+  display: flex;
+  padding: 0px;
+  width: 100px;
+
+}
+
+#navbar-dados-aluno p {
+  margin: 0px;
+}
+
+.nav-dados-aluno{
+  gap: 0 !important;
+}
+
+.btn-sair{
+  background-color: rgb(250, 148, 148);
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.btn-sair:hover{
+  background-color: rgb(249, 184, 184);
+}
+
+.navbar-expand-sm {
+  min-height: 36px;
+  background-color: #ec1f6d !important;
+}
+
+.main-container {
+  max-width: 400px !important;
+  width: 100% !important;
+  background-color: rgb(255, 255, 255);
+  height: 30vh;
+  margin-top: 150px !important;
+  overflow: hidden;
+  background: transparent;
+}
+
+.logo-afya{
+  width: 100px;
+  background-color: #414e57;
+  margin: 0px;
+  padding: 20px;
+}
+
+#fundo-branco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.background-image {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn-atividades {
+  background-color: #414e57 !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+  font-size: 25px !important;
+
+}
+
+.botao-container {
+  max-width: 400px !important;
+  width: 100% !important;
+  min-width: 240px;
+  margin-bottom: 0px !important;
+}
+
+.btn-registrar {
+  max-width: 400px !important;
+  width: 100% !important;
+  /* min-width: 248px; */
+  background-color: #ec1f6d !important;
+}
+
+.link-btn-registrar {
+  text-decoration: none;
+  color: white;
+}
+
+#lista-de-atividades {
+  overflow: scroll !important;
+  font-weight: bold;
+  font-size: 15px !important;
+  max-height: 165px;
+}
+
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.accordion-button {
+  min-width: 240px;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgb(235, 242, 245);
+}
+
+li.selecionado {
+  background-color: #dfdfdf;
+  /* cor de destaque para itens selecionados */
+}
